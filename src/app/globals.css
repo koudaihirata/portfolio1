@@ -4,14 +4,40 @@ body{
     font-size: 16px;
     margin: 0;
 }
-.homeMein{
+.homeMain{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.homeMein h2{
+.homeMain h2{
     padding: 20px;
     background: #fff;
+}
+.profileMain{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.profileMain > p{
+    position: absolute;
+    font-size: 450px;
+    transform: rotate(-20deg);
+    color: #F9F9F9;
+    z-index: -1;
+}
+.profileMain div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.profileMain div:first-child{
+    margin-bottom: 40px;
 }
