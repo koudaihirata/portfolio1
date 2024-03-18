@@ -1,6 +1,8 @@
 "use client"
 
 import Btn from "@/components/btn/btn";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
 export default function Home() {
@@ -40,7 +42,7 @@ export default function Home() {
                 <p>たった2週間の思い出</p>
               </div>
             </div>
-            <div style={{display:'flex',justifyContent:'space-around'}}>
+            <div style={{display:'flex',justifyContent:'space-around',marginTop:'75px'}}>
               <div className="projectTitle">
                 <Image src="/yurumetabi.svg" alt="yurumetabiロゴ" width={275} height={100}/>
                 <p>チームの大変さを知る</p>
@@ -51,6 +53,11 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <p>KOUDAI</p>
+      </section>
+      <section className="contactMain">
+        <h3 style={{color:'#9F9F9F',fontSize:'24px',margin:'0',textAlign:'center'}}>contact</h3>
+        <FontAwesomeIcon icon={faInstagram} />
       </section>
     </main>
   );
