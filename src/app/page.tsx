@@ -29,7 +29,7 @@ export default function Home() {
       </section>
       <section className="projectMain">
           <h3 style={{color:'#9F9F9F',fontSize:'24px',margin:'0',textAlign:'center'}}>project</h3>
-          <div style={{width:'80%',margin:'0 auto'}}>
+          <div style={{width:'80%',margin:'42px auto 0'}}>
             <div style={{display:'flex',justifyContent:'space-around'}}>
               <div className="projectTitle">
                 <Image src="/UMAMI.svg" alt="UMAMIロゴ" width={275} height={142}/>
