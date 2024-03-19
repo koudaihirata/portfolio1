@@ -4,6 +4,7 @@ import Btn from "@/components/btn/btn";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -33,24 +34,32 @@ export default function Home() {
           <h3 style={{color:'#9F9F9F',fontSize:'24px',margin:'0',textAlign:'center'}}>project</h3>
           <div style={{width:'80%',margin:'42px auto 0'}}>
             <div style={{display:'flex',justifyContent:'space-around'}}>
-              <div className="projectTitle">
-                <Image src="/UMAMI.svg" alt="UMAMIロゴ" width={275} height={142}/>
-                <p>初めてのWebサイト</p>
-              </div>
-              <div className="projectTitle">
-                <Image src="/TECHELPER.svg" alt="TECHELPERロゴ" width={250} height={165}/>
-                <p>たった2週間の思い出</p>
-              </div>
+              <Link href="/projects/UMAMI">
+                <div className="projectTitle">
+                  <Image src="/UMAMI.svg" alt="UMAMIロゴ" width={275} height={142}/>
+                  <p>初めてのWebサイト</p>
+                </div>
+              </Link>
+              <Link href="/projects/TECHELPER">
+                <div className="projectTitle">
+                  <Image src="/TECHELPER.svg" alt="TECHELPERロゴ" width={250} height={165}/>
+                  <p>たった2週間の思い出</p>
+                </div>
+              </Link>
             </div>
             <div style={{display:'flex',justifyContent:'space-around',marginTop:'75px'}}>
-              <div className="projectTitle">
-                <Image src="/yurumetabi.svg" alt="yurumetabiロゴ" width={275} height={100}/>
-                <p>チームの大変さを知る</p>
-              </div>
-              <div className="projectTitle">
-                <Image src="/miraitouhyou.svg" alt="miraitouhyouロゴ" width={180} height={176}/>
-                <p>1年生の集大成</p>
-              </div>
+              <Link href="/projects/yurumetabi">
+                <div className="projectTitle">
+                  <Image src="/yurumetabi.svg" alt="yurumetabiロゴ" width={275} height={100}/>
+                  <p>チームの大変さを知る</p>
+                </div>
+              </Link>
+              <Link href="/projects/miraitouhyou">
+                <div className="projectTitle">
+                  <Image src="/miraitouhyou.svg" alt="miraitouhyouロゴ" width={180} height={176}/>
+                  <p>1年生の集大成</p>
+                </div>
+              </Link>
             </div>
           </div>
           <p>KOUDAI</p>

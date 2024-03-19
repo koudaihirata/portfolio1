@@ -8,6 +8,10 @@ body{
 p{
     margin: 0;
 }
+a{
+    text-decoration: none;
+    color: #999;
+}
 .homeMain{
     width: 100%;
     height: 100vh;
@@ -70,6 +74,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 32px;
     border-radius: 15px;
     transition: all .5s;
     /* box-shadow: 0px 0px 8px 0px #00000020; */
