@@ -18,6 +18,10 @@ p{
 .homeMain h2{
     padding: 20px;
     background: #fff;
+    transition: all .5s;
+}
+.homeMain h2:hover{
+    transform: scale(1.1);
 }
 .profileMain{
     width: 100%;
