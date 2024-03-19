@@ -42,7 +42,7 @@ export default function Page({ params, searchParams }: Props) {
     return(
         <main>
             <h2>{params.projectName}</h2>
-            <p>{Project}</p>
+            <div>{Project}</div>
         </main>
     )
 }

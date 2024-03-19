@@ -1,14 +1,15 @@
 "use client"
 
 import Btn from "@/components/btn/btn";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faGithub, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faDashboard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
+    <main style={{marginBottom:'120px'}}>
       <section className="homeMain">
         <h2><Image src="/logo.svg" alt="logo" width={335} height={182}/></h2>
       </section>
@@ -49,13 +50,13 @@ export default function Home() {
             </div>
             <div style={{display:'flex',justifyContent:'space-around',marginTop:'75px'}}>
               <Link href="/projects/yurumetabi">
-                <div className="projectTitle">
+                <div className="projectTitle HTML">
                   <Image src="/yurumetabi.svg" alt="yurumetabiロゴ" width={275} height={100}/>
                   <p>チームの大変さを知る</p>
                 </div>
               </Link>
               <Link href="/projects/miraitouhyou">
-                <div className="projectTitle">
+                <div className="projectTitle EXPO">
                   <Image src="/miraitouhyou.svg" alt="miraitouhyouロゴ" width={180} height={176}/>
                   <p>1年生の集大成</p>
                 </div>
@@ -66,7 +67,22 @@ export default function Home() {
       </section>
       <section className="contactMain">
         <h3 style={{color:'#9F9F9F',fontSize:'24px',margin:'0',textAlign:'center'}}>contact</h3>
-        <FontAwesomeIcon icon={faInstagram} />
+        <div style={{display:'flex',marginTop:'40px'}}>
+          <div className="contactApp">
+            <div style={{display:'flex',justifyContent:'space-around'}}>
+              <Link href="#"><div><FontAwesomeIcon icon={faInstagram} /></div></Link>
+              <Link href="#"><div><FontAwesomeIcon icon={faXTwitter} /></div></Link>
+            </div>
+            <div style={{display:'flex',justifyContent:'space-around',marginTop:'50px'}}>     
+              <Link href="#"><div><FontAwesomeIcon icon={faDiscord} /></div></Link>
+              <Link href="#"><div><FontAwesomeIcon icon={faGithub} /></div></Link>
+            </div>
+          </div>
+          <div className="contactMail">
+            <p style={{fontSize:'24px'}}>email：hiratakoudai61@gmali.com</p>
+            <p style={{fontSize:'24px'}}>tell：080-3111-6771</p>
+          </div>
+        </div>
       </section>
     </main>
   );
