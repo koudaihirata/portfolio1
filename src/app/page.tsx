@@ -2,18 +2,18 @@
 
 import Btn from "@/components/btn/btn";
 import { faDiscord, faGithub, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faDashboard, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default function Home() {  
   return (
     <main style={{marginBottom:'120px'}}>
       <section className="homeMain">
         <h2><Image src="/logo.svg" alt="logo" width={335} height={182}/></h2>
       </section>
-      <section className="profileMain">
+      <section className="profileMain" id="Profile">
         <div>
           <h3 style={{color:'#9F9F9F',fontSize:'24px',margin:'0'}}>profile</h3>
           <p style={{fontSize:'48px',marginTop:'12px',marginBottom:'4px'}}>平田晃大</p>
@@ -31,7 +31,7 @@ export default function Home() {
         <Btn label="MORE" link="/Profile" />
         <p>HIRATA</p>
       </section>
-      <section className="projectMain">
+      <section className="projectMain" id="Project">
           <h3 style={{color:'#9F9F9F',fontSize:'24px',margin:'0',textAlign:'center'}}>project</h3>
           <div style={{width:'80%',margin:'42px auto 0'}}>
             <div style={{display:'flex',justifyContent:'space-around'}}>
@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <p>KOUDAI</p>
       </section>
-      <section className="contactMain">
+      <section className="contactMain" id="Contact">
         <h3 style={{color:'#9F9F9F',fontSize:'24px',margin:'0',textAlign:'center'}}>contact</h3>
         <div style={{display:'flex',marginTop:'40px'}}>
           <div className="contactApp">
