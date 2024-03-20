@@ -2,7 +2,7 @@
 
 import Btn from "@/components/btn/btn";
 import { faDiscord, faGithub, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faDashboard } from "@fortawesome/free-solid-svg-icons";
+import { faDashboard, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
@@ -70,17 +70,27 @@ export default function Home() {
         <div style={{display:'flex',marginTop:'40px'}}>
           <div className="contactApp">
             <div style={{display:'flex',justifyContent:'space-around'}}>
-              <Link href="#"><div><FontAwesomeIcon icon={faInstagram} /></div></Link>
-              <Link href="#"><div><FontAwesomeIcon icon={faXTwitter} /></div></Link>
+              <Link href="https://www.instagram.com/tamagogirai16/"><div><FontAwesomeIcon icon={faInstagram} style={{width:'60px',height:'60px'}} /></div></Link>
+              <Link href="#"><div><FontAwesomeIcon icon={faXTwitter} style={{width:'60px',height:'60px'}} /></div></Link>
             </div>
             <div style={{display:'flex',justifyContent:'space-around',marginTop:'50px'}}>     
-              <Link href="#"><div><FontAwesomeIcon icon={faDiscord} /></div></Link>
-              <Link href="#"><div><FontAwesomeIcon icon={faGithub} /></div></Link>
+              <Link href="https://discord.com/channels/@me"><div><FontAwesomeIcon icon={faDiscord} style={{width:'60px',height:'60px'}} /></div></Link>
+              <Link href="https://github.com/koudaihirata"><div><FontAwesomeIcon icon={faGithub} style={{width:'60px',height:'60px'}} /></div></Link>
             </div>
           </div>
           <div className="contactMail">
-            <p style={{fontSize:'24px'}}>email：hiratakoudai61@gmali.com</p>
-            <p style={{fontSize:'24px'}}>tell：080-3111-6771</p>
+            <a href="mailto:hiratakoudai61@gmali.com">
+              <div style={{display:'flex',alignItems:'center',gap:'1rem'}}>
+                <FontAwesomeIcon icon={faEnvelope} style={{width:'30px',height:'30px'}} />
+                <p style={{fontSize:'24px',textDecoration:'underline'}}>hiratakoudai61@gmali.com</p>
+              </div>
+            </a>
+            <a href="tel:+81-80-3111-6771">
+              <div style={{display:'flex',alignItems:'center',gap:'1rem'}}>
+                <FontAwesomeIcon icon={faPhone} style={{width:'30px',height:'30px'}} />
+                <p style={{fontSize:'24px',textDecoration:'underline'}}>080-3111-6771</p>
+              </div>
+            </a>
           </div>
         </div>
       </section>
