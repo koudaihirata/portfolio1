@@ -11,6 +11,7 @@
         h2{
             font-size: 36px;
             position: relative;
+            color: #4e4e4e;
 
             &::before{
                 content: "Project";
@@ -29,4 +30,148 @@ a{
     text-align: center;
     text-decoration: underline;
     margin-top: 38px;
+}
+.projectsStory{
+    width: 80%;
+    margin: 80px auto 0;
+    position: relative;
+
+    &::before{
+        content: "Story";
+        position: absolute;
+        font-size: 450px;
+        transform: rotate(-20deg);
+        color: #F9F9F9;
+        z-index: -1;
+        animation: Story 8s infinite;
+    }
+    @keyframes Story{
+        0%{
+            transform: rotate(-20deg) translateX(100%);
+        }
+        100%{
+            transform: rotate(-20deg) translateX(-100%);
+        }
+    }
+        h3{
+        font-size: 28px;
+        position: relative;
+        color: #4e4e4e;
+
+        &::before{
+            content: "Story";
+            position: absolute;
+            top: -30px;
+            left: -40px;
+            font-size: 65px;
+            color: #F6F6F6;
+            z-index: -1;
+        }
+    }
+    h4{
+        font-size: 20px;
+        color: #4e4e4e;
+        margin: 26px 0 0;
+        position: relative;
+
+        &::before{
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 20px;
+            background-color: #D9D9D9;
+            top: 5px;
+            left: -16px;
+        }
+    }
+    div{
+        width: 900px;
+        height: 640px;
+        border-radius: 15px;
+        margin: 84px auto 0;
+        background: #F7F7F7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:last-child{
+            width: 100%;
+            height: 64px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: none;
+        }
+    }
+    button{
+        width: 185px;
+        height: 65px;
+        font-size: 28px;
+        border: none;
+        background: #D9D9D9;
+        color: #fff;
+        border-radius: 5px;
+        position: relative;
+
+        &:hover{
+            background: #C4C4C4;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            top: 32px;
+            right: 10%;
+            border-top: 2px solid #fff;
+            border-right: 2px solid #fff;
+            transform: translateY(-50%) rotate(45deg);
+        }
+    }
+}
+.projectsDesign{
+    width: 80%;
+    margin: 80px auto 0;
+    position: relative;
+
+    &::before{
+        content: "Design";
+        position: absolute;
+        font-size: 450px;
+        transform: rotate(-10deg);
+        color: #F9F9F9;
+        z-index: -1;
+        animation: Design 8s infinite;
+    }
+    @keyframes Design{
+        0%{
+            transform: rotate(-10deg) translateX(100%);
+        }
+        100%{
+            transform: rotate(-10deg) translateX(-100%);
+        }
+    }
+    h3{
+        font-size: 28px;
+        position: relative;
+        color: #4e4e4e;
+        margin: 120px 0 28px;
+
+        &::before{
+            content: "Design";
+            position: absolute;
+            top: -30px;
+            left: -43px;
+            font-size: 65px;
+            color: #F6F6F6;
+            z-index: -1;
+        }
+    }
+    > div{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40px;
+    }
 }
