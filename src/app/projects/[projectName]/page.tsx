@@ -6,7 +6,7 @@ import TECHELPER from '@/components/projects/TECHELPER/page';
 import Yurumetabi from '@/components/projects/Yurumetabi/page';
 import Miraitouhyou from '@/components/projects/Miraitouhyou/page';
 import { usePathname, useRouter } from 'next/navigation';
-import ProjectTitle from '@/components/projects/ProjectTitle/page';
+import UMAMI from '@/components/projects/UMAMI/page';
 
 type Props = {
     params: { projectName: string };
@@ -15,13 +15,13 @@ type Props = {
 
 export default function Page({ params, searchParams }: Props) {
     const router = usePathname();
-    const [project, setProject] = useState( <ProjectTitle /> );
+    const [project, setProject] = useState( <UMAMI /> );
 
     useEffect(() => {
         if (router) {
             switch (router) {
                 case '/projects/UMAMI':
-                    setProject(<ProjectTitle />);
+                    setProject(<UMAMI />);
                     break;
                 case '/projects/TECHELPER':
                     setProject(<TECHELPER />);
@@ -33,17 +33,14 @@ export default function Page({ params, searchParams }: Props) {
                     setProject(<Miraitouhyou />);
                     break;
                 default:
-                    setProject(<ProjectTitle />);
+                    setProject(<UMAMI />);
             }
         }
     }, [router]);
 
     return(
         <main style={{margin:'74px 0 120px'}}>
-            <section>
-                <h2>{params.projectName}</h2>
-                <div>{project}</div>
-            </section>
+            {project}
         </main>
     )
 }

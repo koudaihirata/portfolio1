@@ -1,0 +1,32 @@
+.projectsTitle{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+
+    div{
+        width: 50%;
+
+        h2{
+            font-size: 36px;
+            position: relative;
+
+            &::before{
+                content: "Project";
+                position: absolute;
+                top: -30px;
+                left: -40px;
+                font-size: 75px;
+                color: #F6F6F6;
+                z-index: -1;
+            }
+        }
+    }
+}
+a{
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 38px;
+}
