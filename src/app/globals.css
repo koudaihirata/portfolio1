@@ -70,6 +70,9 @@ a{
     margin-top: 200px;
     position: relative;
 }
+.projectMain a{
+    text-decoration: none;
+}
 .projectTitle{
     width: 300px;
     height: 275px;
@@ -106,7 +109,7 @@ a{
 }
 .projectMain > p{
     position: absolute;
-    top: 0;
+    top: 25%;
     font-size: 450px;
     transform: rotate(-20deg);
     color: #F9F9F9;

@@ -62,6 +62,14 @@ export default function Home() {
                 </div>
               </Link>
             </div>
+            <div style={{display:'flex',justifyContent:'space-around',marginTop:'75px'}}>
+              <Link href="/projects/CARDCONNECT">
+                <div className="projectTitle">
+                  <Image src="/CARDCONNECT.svg" alt="CARDCONNECTロゴ" width={125} height={100} style={{background:'#4F96EA',borderRadius:'5px'}}/>
+                  <p>3日間の友情</p>
+                </div>
+              </Link>
+            </div>
           </div>
           <p>KOUDAI</p>
       </section>
