@@ -11,16 +11,15 @@ export default function CARDCONNECT() {
             <section className="projectsTitle">
                 <div>
                     <h2>CARDCONNECT</h2>
-                    <p style={{margin:'32px 0 28px'}}>世の中を便利にするwebサービス</p>
+                    <p style={{margin:'32px 0 28px'}}>人間関係をもとに新しいWEBサービス・アプリを制作</p>
                     <p>
-                        未来の投票者として、<br />
-                        実際の選挙に関する情報やデータを見ながら、<br />
-                        模擬選挙を行ったりすることができるWebサービスです。
+                        就活生と企業をつなぐ
+                        デジタル名刺交換アプリ
                     </p>
-                    <p style={{marginTop:'30px',color:'#999'}}>制作期間：2023年10月〜2024年1月末（4ヶ月）</p>
-                    <p style={{color:'#999'}}>作品種別：1年生/授業/個人制作</p>
-                    <p style={{color:'#999'}}>担当：個人制作のため全て</p>
-                    <p style={{color:'#999'}}>使用ツール：Illustrator / Photoshop / Figma / Next.js / firebase / github / backlog / Notion</p>
+                    <p style={{marginTop:'30px',color:'#999'}}>制作期間：2024年3月11日〜2024年3月13日（3日間）</p>
+                    <p style={{color:'#999'}}>作品種別：1年生/授業外/チーム制作</p>
+                    <p style={{color:'#999'}}>担当：フロントエンドと一部デザイン</p>
+                    <p style={{color:'#999'}}>使用ツール：HTML / CSS / JS / PowerPoint / Figma / github / Notion</p>
                 </div>
                 <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
                     <Image src="/CARDScreen.svg" alt="CARDCONNECT" width={564} height={416} />
@@ -30,20 +29,20 @@ export default function CARDCONNECT() {
             <section className="projectsStory">
                 <h3>ストーリー</h3>
                 <p>
-                    1年後期の作品でECC EXPOに出展することを目標に考えてこの作品を制作しました。<br />
-                    ECC EXPOでは、社会問題を取り扱っている作品が選ばれやすいと聞いたので、社会問題を題材にしたサービスを作成した背景があります。
+                    春休みの間に、ECCの生徒とその他の7つの学校の計34人で集まってその中でランダムにチームを作り、<br />
+                    そのチームで3日間で人間関係に関するWEBサービス・アプリを制作するという企画で制作しました。
                 </p>
                 <h4>反省</h4>
-                <p style={{margin:'4px 0'}}>AIに頼りすぎた部分があるなと思ったことです。</p>
+                <p style={{margin:'4px 0'}}>企画部分に時間を割きすぎた。</p>
                 <p>
-                    あるエラーが出た時、どのようなようなエラーなのかを軽くしか調べずにAIに丸投げした結果その時はエラーが解消したんですが、<br />
-                    ビルドした際にAIに丸投げした部分がエラーが出て修正するのにすごく時間が掛かったことです。<br />
-                    次からは、程良くAIを取り入れていきたい。
+                    最初の企画を決める段階でなかなか決まらず、2日目の昼過ぎにようやく決まり実際の作業時間が1日しかなかったことで<br />
+                    作業時間が短くなり、最後に急いで作業することになりました。
                 </p>
                 <h4>成長したこと</h4>
-                <p style={{margin:'4px 0'}}>ミライ投票が完成に近ずく度に自分が成長しているなと実感できたことです。</p>
+                <p style={{margin:'4px 0'}}>リーダーシップをとってチームをまとめることができた</p>
                 <p>
-                    完成が近づいた時に最初の方にコーディングしたところを編集する機会があった時に前に書いたコードを見た瞬間に、こっちのコードの方がいいと考え変更したように4ヶ月という短い時間でも最初の方よりは成長しているのかと実感しました。
+                    今回のチーム制作は、学校が違うこともあって技術的な部分での意見の食い違いが多く、<br />
+                    チームの中で出来る方だったので、他のメンバーがわからないことを教えたり、指示を出してなんとか形にすることはできた。
                 </p>
                 <div>
                     <Image src="/CARDPresen.png" alt="CARDCONNECTプレゼン" width={830} height={587} />
