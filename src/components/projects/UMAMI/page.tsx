@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function UMAMI() {
     const handleClick = () => {
-        window.open('/企画書.pdf');
+        
     }
     return(
         <>
