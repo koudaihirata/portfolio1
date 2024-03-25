@@ -24,7 +24,8 @@ export default function Miraitouhyou() {
                     <p style={{color:'#999'}}>担当：個人制作のため全て</p>
                     <p style={{color:'#999'}}>使用ツール：Illustrator / Photoshop / Figma / Next.js / firebase / github / backlog / Notion</p>
                 </div>
-                <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
+                <div style={{display:'flex',alignItems:'center',justifyContent:'center',position:'relative'}}>
+                    <Image src="/EXPO.svg" alt="EXPO" width={133} height={148} style={{position:'absolute',top:'-50px',left:'-50px'}} />
                     <Image src="/miraiScreen.svg" alt="ミライ投票" width={564} height={416} />
                 </div>
             </section>
