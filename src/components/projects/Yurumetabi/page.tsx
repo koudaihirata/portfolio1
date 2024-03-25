@@ -14,16 +14,16 @@ export default function Yurumetabi() {
                     <h2>ゆるめ旅</h2>
                     <p style={{margin:'32px 0 28px'}}>目的地に世界１遅く到着するルート案内アプリ</p>
                     <p>
-                        未来の投票者として、<br />
-                        実際の選挙に関する情報やデータを見ながら、<br />
-                        模擬選挙を行ったりすることができるWebサービスです。
+                        あえて遠回りをさせて景色を楽しんだり<br />
+                        寄り道しながら目的地へ向かう新しいルート案内アプリ 
                     </p>
                     <p style={{marginTop:'30px',color:'#999'}}>制作期間：2023年10月〜2024年1月末（4ヶ月）</p>
-                    <p style={{color:'#999'}}>作品種別：1年生/授業/個人制作</p>
-                    <p style={{color:'#999'}}>担当：個人制作のため全て</p>
+                    <p style={{color:'#999'}}>作品種別：1年生/授業/チーム制作</p>
+                    <p style={{color:'#999'}}>担当：shareページのカメラで撮影と写真にタグをつけて保存</p>
                     <p style={{color:'#999'}}>使用ツール：Illustrator / Photoshop / Figma / Next.js / firebase / github / backlog / Notion</p>
                 </div>
-                <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
+                <div style={{display:'flex',alignItems:'center',justifyContent:'center',position:'relative'}}>
+                    <Image src="/htmlAward.svg" alt="HTMLアワード" width={133} height={148} style={{position:'absolute',top:'0',left:'0'}} />
                     <Image src="/yurumeScreen.svg" alt="ゆるめ旅" width={564} height={416} />
                 </div>
             </section>
@@ -32,23 +32,27 @@ export default function Yurumetabi() {
             <section className="projectsStory">
                 <h3>ストーリー</h3>
                 <p>
-                    1年後期の作品でECC EXPOに出展することを目標に考えてこの作品を制作しました。<br />
-                    ECC EXPOでは、社会問題を取り扱っている作品が選ばれやすいと聞いたので、社会問題を題材にしたサービスを作成した背景があります。
+                    1年後期のチーム制作の授業で作りました。<br />
+                    この作品は、HTMLアワードという大会で賞を獲得するのを目標にして制作しました。
                 </p>
                 <h4>反省</h4>
-                <p style={{margin:'4px 0'}}>AIに頼りすぎた部分があるなと思ったことです。</p>
+                <p style={{margin:'4px 0'}}>周りに合わせないといけない</p>
                 <p>
-                    あるエラーが出た時、どのようなようなエラーなのかを軽くしか調べずにAIに丸投げした結果その時はエラーが解消したんですが、<br />
-                    ビルドした際にAIに丸投げした部分がエラーが出て修正するのにすごく時間が掛かったことです。<br />
-                    次からは、程良くAIを取り入れていきたい。
+                    短期のチームではなく、4ヶ月という長い期間でチーム制作を行ったことで、チームの大変さを知ることができました。<br />
+                    1.2.3年生の合同チームで作ったので、エンジニアの先輩に合わせた環境で開発が進むので初めて触る技術にすぐに慣れる必要がありました。<br />
+                    その為、次回の合同チーム制作では後輩に早くわかりやすく教えないといけないと感じたので<br />
+                    これまで以上に言語や技術について理解を深める必要があると感じました。
                 </p>
                 <h4>成長したこと</h4>
-                <p style={{margin:'4px 0'}}>ミライ投票が完成に近ずく度に自分が成長しているなと実感できたことです。</p>
+                <p style={{margin:'4px 0'}}>実力がメキメキと伸びるのが実感できた。</p>
                 <p>
-                    完成が近づいた時に最初の方にコーディングしたところを編集する機会があった時に前に書いたコードを見た瞬間に、こっちのコードの方がいいと考え変更したように4ヶ月という短い時間でも最初の方よりは成長しているのかと実感しました。
+                    このチームでの4ヶ月間に、自分の技術が上がっているのを実感しました。<br />
+                    最初の方は、エンジニアの先輩に教えてもらいながら進めていたのですが、<br />
+                    途中からは調べ方も教わり、<br />
+                    自分で調べて進めることが出来るようになってからは次々に自分の所に仕事を振ってくれるようになりました。
                 </p>
                 <div>
-                    <Image src="/miraiConcept.svg" alt="ミライ投票コンセプトシート" width={830} height={587} />
+                    <Image src="/yurumePresen.svg" alt="ゆるめ旅コンセプト" width={830} height={587} />
                 </div>
                 <div>
                     <button onClick={handleClick}>proposal</button>
