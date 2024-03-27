@@ -82,7 +82,7 @@ export default function Home() {
               <Link href="#"><div><FontAwesomeIcon icon={faXTwitter} style={{width:'60px',height:'60px'}} /></div></Link>
             </div>
             <div style={{display:'flex',justifyContent:'space-around',marginTop:'50px'}}>     
-              <Link href="https://discord.com/channels/@me"><div><FontAwesomeIcon icon={faDiscord} style={{width:'60px',height:'60px'}} /></div></Link>
+              <Link href="#"><div><FontAwesomeIcon icon={faDiscord} style={{width:'60px',height:'60px'}} /></div></Link>
               <Link href="https://github.com/koudaihirata"><div><FontAwesomeIcon icon={faGithub} style={{width:'60px',height:'60px'}} /></div></Link>
             </div>
           </div>
