@@ -1,6 +1,5 @@
 "use client"
 
-import Btn from "@/components/btn/btn";
 import { faDiscord, faGithub, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faBackward, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -32,7 +31,9 @@ export default function Home() {
             これからも数多くの壁にぶち当たると思いますが、自分が納得出来るまでやり続けます。
           </p>
         </div>
-        <Btn label="MORE" link="/Profile" />
+        <div className="Btn">
+            <Link href="/Profile">MORE</Link>
+        </div>
         <p>HIRATA</p>
       </section>
       <section className="projectMain" id="Project">
