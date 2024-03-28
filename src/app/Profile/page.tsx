@@ -10,18 +10,19 @@ export default function Profile() {
             <section className="ProfileTitle">
                 <div>
                     <h2>平田晃大</h2>
-                    <p style={{margin:'32px 0 28px'}}>人間関係をもとに新しいWEBサービス・アプリを制作</p>
-                    <p>
-                        就活生と企業をつなぐ
-                        デジタル名刺交換アプリ
+                    <p style={{margin:'32px 0 28px'}}>
+                        ECCコンピュータ専門学校/マルチメディア研究学科/Webデザインコース<br />
+                        26年卒業予定
                     </p>
-                    <p style={{marginTop:'30px',color:'#999'}}>制作期間：2024年3月11日〜2024年3月13日（3日間）</p>
-                    <p style={{color:'#999'}}>作品種別：1年生/授業外/チーム制作</p>
-                    <p style={{color:'#999'}}>担当：フロントエンドと一部デザイン</p>
-                    <p style={{color:'#999'}}>使用ツール：HTML / CSS / JS / PowerPoint / Figma / github / Notion</p>
+                    <p>
+                        2002年 6月1日/大阪府生まれ/大阪府育ち/好きな食べ物はラーメン                    
+                    </p>
+                    <p style={{marginTop:'30px'}}>
+                        友人がその道に楽しそうに進んでいたので自分もやってみたいなと思いweb・IT業界に興味を持ちました。
+                    </p>
                 </div>
-                <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
-                    <Image src="/CARDScreen.svg" alt="CARDCONNECT" width={564} height={416} />
+                <div style={{display:'flex',alignItems:'center',justifyContent:'center',width:'330px',height:'330px',background:'#F7F7F7',borderRadius:'20px'}}>
+                    <Image src="/MyPhoto.svg" alt="自分の写真" width={300} height={300} />
                 </div>
             </section>
         </main>
