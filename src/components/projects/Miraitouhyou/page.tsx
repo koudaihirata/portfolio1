@@ -1,4 +1,3 @@
-import Btn from "@/components/btn/btn";
 import Image from "next/image";
 import Link from "next/link";
 
