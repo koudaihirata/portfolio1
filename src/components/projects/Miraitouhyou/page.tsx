@@ -33,8 +33,7 @@ export default function Miraitouhyou() {
             <section className="projectsStory">
                 <h3>ストーリー</h3>
                 <p>
-                    1年後期の作品でECC EXPOに出展することを目標に考えてこの作品を制作しました。<br />
-                    ECC EXPOでは、社会問題を取り扱っている作品が選ばれやすいと聞いたので、社会問題を題材にしたサービスを作成した背景があります。
+                    1年後期の作品でECC EXPOに出展することを目標に考えてこの作品を制作しました。
                 </p>
                 <h4>反省</h4>
                 <p style={{margin:'4px 0'}}>AIに頼りすぎた部分があるなと思ったこと</p>
