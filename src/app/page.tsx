@@ -2,7 +2,7 @@
 
 import Btn from "@/components/btn/btn";
 import { faDiscord, faGithub, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faBackward, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,7 +11,11 @@ export default function Home() {
   return (
     <main style={{marginBottom:'120px'}}>
       <section className="homeMain">
-        <h2><Image src="/logo.svg" alt="logo" width={335} height={182}/></h2>
+          <h2><Image src="/logo.svg" alt="logo" width={335} height={182}/></h2>
+          <div>
+            <p>scroll</p>
+            <FontAwesomeIcon icon={faBackward} style={{widows:'30px',height:'30px',transform:'rotate(-90deg)'}}/>
+        </div>
       </section>
       <section className="profileMain" id="Profile">
         <div>
