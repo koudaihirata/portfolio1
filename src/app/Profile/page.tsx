@@ -53,33 +53,15 @@ export default function Profile() {
             <section className="projectsSkill">
                 <h3>スキル</h3>
                 <div className="projectsIcon">
-                    <div>
-                        <FontAwesomeIcon icon={faHtml5}/>
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faCss3Alt}/>
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faSass}/>
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faJs}/>
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faReact}/>
-                    </div>
-                    <div>
-                        <Image src="/nextjs_icon.png" alt="Next.js" width={50} height={50} />
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faPhp}/>
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faLaravel}/>
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faDocker}/>
-                    </div>
+                    <FontAwesomeIcon icon={faHtml5}/>
+                    <FontAwesomeIcon icon={faCss3Alt}/>
+                    <FontAwesomeIcon icon={faSass}/>
+                    <FontAwesomeIcon icon={faJs}/>
+                    <FontAwesomeIcon icon={faReact}/>
+                    <Image src="/nextjs_icon.png" alt="Next.js" width={50} height={50} />
+                    <FontAwesomeIcon icon={faPhp}/>
+                    <FontAwesomeIcon icon={faLaravel}/>
+                    <FontAwesomeIcon icon={faDocker}/>
                 </div>
             </section>
         </main>
