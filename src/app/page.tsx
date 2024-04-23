@@ -84,7 +84,7 @@ export default function Home() {
           <div className="contactApp">
             <div style={{display:'flex',justifyContent:'space-around'}}>
               <Link href="https://www.instagram.com/tamagogirai16/"><div><FontAwesomeIcon icon={faInstagram} style={{width:'60px',height:'60px'}} /></div></Link>
-              <Link href="#"><div><FontAwesomeIcon icon={faXTwitter} style={{width:'60px',height:'60px'}} /></div></Link>
+              <Link href="https://twitter.com/WDkoudai61"><div><FontAwesomeIcon icon={faXTwitter} style={{width:'60px',height:'60px'}} /></div></Link>
             </div>
             <div style={{display:'flex',justifyContent:'space-around',marginTop:'50px'}}>     
               <Link href="#"><div><FontAwesomeIcon icon={faDiscord} style={{width:'60px',height:'60px'}} /></div></Link>
