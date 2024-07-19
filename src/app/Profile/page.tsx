@@ -3,7 +3,7 @@
 import Image from "next/image"
 import "@/app/Profile/Profile.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCss3Alt, faDocker, faHtml5, faJs, faLaravel, faPhp, faReact, faSass,} from "@fortawesome/free-brands-svg-icons"
+import { faCss3Alt, faHtml5, faJs, faLaravel, faPhp, faPython, faReact, faSass, faSwift,} from "@fortawesome/free-brands-svg-icons"
 
 
 export default function Profile() {
@@ -61,7 +61,8 @@ export default function Profile() {
                     <Image src="/nextjs_icon.png" alt="Next.js" width={50} height={50} />
                     <FontAwesomeIcon icon={faPhp}/>
                     <FontAwesomeIcon icon={faLaravel}/>
-                    <FontAwesomeIcon icon={faDocker}/>
+                    <FontAwesomeIcon icon={faSwift}/>
+                    <FontAwesomeIcon icon={faPython}/>
                 </div>
             </section>
         </main>
