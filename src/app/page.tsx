@@ -5,10 +5,13 @@ import { faBackward, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-ico
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
+import '@/components/Anime.scss';
 
 export default function Home() {  
   return (
     <main style={{marginBottom:'120px'}}>
+      <div className="splash"></div>
+      <div id="welcome"></div>
       <section className="homeMain">
           <h2><Image src="/logo.svg" alt="logo" width={335} height={182}/></h2>
           <div>
